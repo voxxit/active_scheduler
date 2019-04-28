@@ -14,9 +14,12 @@ rvm:
   - 2.3.2
   - 2.3.3
   - 2.4.0
+  - 2.5.0
+  - 2.6.3
 env:
   - "RAILS_VERSION=4.2.0"
   - "RAILS_VERSION=5.0.0"
+  - "RAILS_VERSION=6.0.0.rc1"
 matrix:
   exclude:
     - rvm: 2.0.0
@@ -35,6 +38,6 @@ matrix:
 notifications:
   email:
     recipients:
-      - 60tonangel@gmail.com
+      - j@srv.im
     on_success: change
     on_failure: change
